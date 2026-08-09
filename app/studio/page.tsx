@@ -111,7 +111,7 @@ export default function StudioPage() {
             : category.name === "Storage"
             ? "md:col-start-3 md:row-start-2"
             : category.name === "Editing & Post"
-            ? "md:col-start-3 md:row-start-3"
+            ? "md:col-start-2 md:row-start-2"
             : ""
         }
       >

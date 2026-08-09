@@ -130,7 +130,8 @@
       {
         "name": "Storage",
         "items": [
-          { "label": "Portable SSD", "value": "SanDisk 2TB" }
+          { "label": "Portable SSD", "value": "SanDisk 2TB" },
+          {"label": "HDD", "value": "SanDisk 2TB HDD"}
         ]
       },
       {
