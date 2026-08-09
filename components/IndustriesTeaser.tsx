@@ -15,12 +15,12 @@ export default function IndustriesTeaser() {
           <p className="max-w-lg font-display text-balance text-[clamp(1.5rem,3vw,2.25rem)] leading-[1.15]">
             {industries.hero.teaser}
           </p>
-          <Link
-            href="/industries"
+          <a
+            href="/thekarthik.io/industries/"
             className="field-label !text-ink/50 hover:!text-ink transition-colors shrink-0"
           >
             View Industries &rarr;
-          </Link>
+          </a>
         </div>
         <div className="mt-12 border-t border-ink/10 pt-10">
           <CollabMarquee items={categoryNames} />

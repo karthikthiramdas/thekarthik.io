@@ -101,12 +101,12 @@ export default function IndustriesPage() {
             <p className="text-ink/60 leading-relaxed max-w-md">
               {industries.completedWork.intro}
             </p>
-            <Link
+            <a
               href={`/thekarthik.io${industries.completedWork.href}/`}
               className="field-label !text-ink/50 hover:!text-ink transition-colors shrink-0"
             >
               {industries.completedWork.linkLabel} &rarr;
-            </Link>
+            </a>
           </div>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
             <Frame label="Aviation" caption="Wing Study, Golden Hour" tone="brass" ratio="square" src="/thekarthik.io/images/real/wing-sunset.jpeg" />
@@ -127,7 +127,7 @@ export default function IndustriesPage() {
 
           <div className="mt-14 grid md:grid-cols-2 gap-10">
             {industries.collaborations.map((collab) => (
-              <Link key={collab.name} href={collab.href} className="group block">
+              <a key={collab.name} href={collab.href} className="group block">
                 <Frame label={collab.category} tone="oxblood" ratio="cinematic" src={collab.image} />
                 <div className="mt-6">
                   <span className="field-label text-oxblood">{collab.category}</span>
@@ -141,7 +141,7 @@ export default function IndustriesPage() {
                     View Case Study &rarr;
                   </span>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </div>

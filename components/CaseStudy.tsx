@@ -207,7 +207,7 @@ export default function CaseStudy({
             </Link>
           </div>
           <Link
-            href="/contact"
+            href="/thekarthik.io/contact/"
             className="field-label !text-ink/50 hover:!text-ink transition-colors"
           >
             Or start a conversation &rarr;

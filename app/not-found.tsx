@@ -26,7 +26,7 @@ export default function NotFound() {
               Back to Home
             </Link>
             <Link
-              href="/work"
+              href="/thekarthik.io/work/"
               className="field-label !text-paper/50 hover:!text-paper transition-colors self-center"
             >
               View the Work

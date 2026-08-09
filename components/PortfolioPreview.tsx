@@ -15,12 +15,12 @@ export default function PortfolioPreview() {
             <Folio index="03" label="The Work" />
             <Statement lines={[previewHeadline]} className="mt-8" />
           </div>
-          <Link
-            href="/work"
+          <a
+            href="/thekarthik.io/work/"
             className="field-label !text-ink/50 hover:!text-ink transition-colors"
           >
             {previewCtaLabel} &rarr;
-          </Link>
+          </a>
         </div>
 
         <div className="mt-16 grid md:grid-cols-3 gap-8">
