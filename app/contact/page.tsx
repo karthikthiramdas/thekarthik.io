@@ -92,7 +92,12 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
-          <Frame label="Next Frame, Yours" tone="stone" ratio="portrait" />
+          <Frame
+  label="Karthik"
+  tone="stone"
+  ratio="portrait"
+  src="/thekarthik.io/images/real/portrait-camera.jpeg"
+/>
         </div>
       </section>
 
