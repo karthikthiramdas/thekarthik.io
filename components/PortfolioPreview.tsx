@@ -3,6 +3,7 @@ import { getPortfolio } from "@/lib/data";
 import Folio from "./Folio";
 import Frame from "./Frame";
 import Statement from "./Statement";
+import { sitePath } from "@/lib/paths";
 
 export default function PortfolioPreview() {
   const { selected, previewHeadline, previewCtaLabel } = getPortfolio();
@@ -16,7 +17,7 @@ export default function PortfolioPreview() {
             <Statement lines={[previewHeadline]} className="mt-8" />
           </div>
           <a
-            href="/work"
+            href={sitePath("/work")}
             className="field-label !text-ink/50 hover:!text-ink transition-colors"
           >
             {previewCtaLabel} &rarr;
