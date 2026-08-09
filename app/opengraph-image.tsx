@@ -1,7 +1,10 @@
 import { ImageResponse } from "next/og";
 import { getCreator } from "@/lib/data";
 
+export const dynamic = "force-static";
+
 export const size = { width: 1200, height: 630 };
+
 export const contentType = "image/png";
 
 export default function OpengraphImage() {
@@ -32,6 +35,7 @@ export default function OpengraphImage() {
         >
           TRAVEL · AVIATION · TECHNOLOGY · LIFESTYLE
         </span>
+
         <span
           style={{
             fontFamily: "serif",
@@ -43,6 +47,7 @@ export default function OpengraphImage() {
         >
           {creator.name}
         </span>
+
         <span
           style={{
             fontFamily: "serif",
@@ -54,6 +59,7 @@ export default function OpengraphImage() {
         >
           {creator.titles.join(" · ")}
         </span>
+
         <span
           style={{
             fontFamily: "sans-serif",
