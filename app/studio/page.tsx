@@ -177,7 +177,7 @@ export default function StudioPage() {
     caption="Behind the camera."
     tone="stone"
     ratio="cinematic"
-    src="/thekarthik.io/images/real/on-location.jpg"
+    src="/thekarthik.io/images/studio/on-location.jpg"
   />
 </div>
         </div>
