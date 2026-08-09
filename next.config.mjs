@@ -3,6 +3,7 @@ const nextConfig = {
   output: "export",
   basePath: "/thekarthik.io",
   assetPrefix: "/thekarthik.io/",
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
