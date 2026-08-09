@@ -1,4 +1,5 @@
 import { getContact } from "@/lib/data";
+import { sitePath } from "@/lib/paths";
 import Folio from "./Folio";
 
 type Props = {
@@ -39,13 +40,13 @@ export default function CollabCTA({
         <p className="mt-6 text-paper/50 max-w-md">{subtext ?? contact.cta.subtext}</p>
         <div className="mt-10 flex flex-wrap justify-center gap-6">
           <a
-            href={primaryHref ?? contact.cta.primaryHref}
+            href={sitePath(primaryHref ?? contact.cta.primaryHref)}
             className="border border-brass/60 text-brass-bright px-7 py-3 field-label hover:bg-brass hover:text-ink hover:border-brass transition-colors"
           >
             {primaryLabel ?? contact.cta.primaryLabel}
           </a>
           <a
-            href={resolvedSecondaryHref}
+            href={sitePath(resolvedSecondaryHref)}
             className="field-label !text-paper/50 hover:!text-paper transition-colors self-center"
           >
             {resolvedSecondaryLabel}

@@ -200,7 +200,7 @@ export default function CaseStudy({
           <div>
             <span className="field-label text-ink/40">Next Case Study</span>
             <Link
-              href={nextClient.href}
+              href={`/thekarthik.io${nextClient.href}/`}
               className="block mt-3 font-display text-3xl hover:text-oxblood transition-colors"
             >
               {nextClient.name} &rarr;

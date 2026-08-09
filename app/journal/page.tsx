@@ -67,7 +67,7 @@ export default function JournalPage() {
           {articles.length > 0 ? (
             <div className="mt-14 grid md:grid-cols-3 gap-10">
               {articles.map((article) => (
-                <Link key={article.slug} href={`/journal/${article.slug}`} className="group block">
+                <a key={article.slug} href={`/thekarthik.io/journal/${article.slug}/`} className="group block">
                   <Frame
                     label={article.category}
                     tone="stone"
@@ -83,7 +83,7 @@ export default function JournalPage() {
                     </h3>
                     <p className="mt-2 text-ink/60 leading-relaxed text-sm">{article.excerpt}</p>
                   </div>
-                </Link>
+                </a>
               ))}
             </div>
           ) : (

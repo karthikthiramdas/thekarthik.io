@@ -57,7 +57,7 @@ export default function Nav() {
       }`}
     >
       <div className="container-page flex h-20 items-center justify-between">
-        <a
+        <Link
           href="/"
           className={`font-display text-lg tracking-tight shrink-0 leading-none transition-colors duration-500 ${
             solid ? "text-ink" : "text-paper"
@@ -65,7 +65,7 @@ export default function Nav() {
         >
           {brand}
           <span className="text-brass">{brandAccent}</span>
-        </a>
+        </Link>
 
         <nav
           aria-label="Primary"
@@ -74,9 +74,9 @@ export default function Nav() {
           {links.map((l) => {
             const active = pathname === l.href;
             return (
-              <a
+              <Link
                 key={l.href}
-                href={`/thekarthik.io${l.href}/`}
+                href={l.href}
                 aria-current={active ? "page" : undefined}
                 className={`field-label whitespace-nowrap py-2 transition-colors duration-500 border-b ${
                   solid
@@ -89,7 +89,7 @@ export default function Nav() {
                 }`}
               >
                 {l.label}
-              </a>
+              </Link>
             );
           })}
         </nav>
@@ -122,9 +122,9 @@ export default function Nav() {
             {links.map((l) => {
               const active = pathname === l.href;
               return (
-                <a
+                <Link
                   key={l.href}
-              href={`/thekarthik.io${l.href}/`}
+              href={l.href}
                   tabIndex={open ? undefined : -1}
                   aria-current={active ? "page" : undefined}
                   className={`font-display text-2xl py-3 transition-colors ${
@@ -132,7 +132,7 @@ export default function Nav() {
                   }`}
                 >
                   {l.label}
-                </a>
+                </Link>
               );
             })}
           </div>
