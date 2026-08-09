@@ -95,23 +95,44 @@ export default function StudioPage() {
           <p className="mt-6 max-w-lg text-ink/60 leading-relaxed">{studio.gear.intro}</p>
 
           <div className="mt-14 grid md:grid-cols-3 gap-x-12 gap-y-12">
-            {studio.gear.categories.map((category) =>
-              category.items.length > 0 ? (
-                <div key={category.name}>
-                  <h3 className="field-label text-ink/50 mb-4">{category.name}</h3>
-                  <SpecRow items={category.items} />
-                </div>
-              ) : (
-                <div key={category.name}>
-                  <h3 className="field-label text-ink/50 mb-4">{category.name}</h3>
-                  <PendingSlot
-                    label="Not Yet Confirmed"
-                    note="Reserved for confirmed gear in this category — nothing invented in the meantime."
-                  />
-                </div>
-              )
-            )}
-          </div>
+  {studio.gear.categories.map((category) =>
+    category.items.length > 0 ? (
+      <div
+        key={category.name}
+        className={
+          category.name === "Camera / Mobile"
+            ? "md:col-start-1 md:row-start-1"
+            : category.name === "Stabilization"
+            ? "md:col-start-2 md:row-start-1"
+            : category.name === "Audio"
+            ? "md:col-start-3 md:row-start-1"
+            : category.name === "Lighting"
+            ? "md:col-start-1 md:row-start-2"
+            : category.name === "Storage"
+            ? "md:col-start-3 md:row-start-2"
+            : category.name === "Editing & Post"
+            ? "md:col-start-3 md:row-start-3"
+            : ""
+        }
+      >
+        <h3 className="field-label text-ink/50 mb-4">
+          {category.name}
+        </h3>
+        <SpecRow items={category.items} />
+      </div>
+    ) : (
+      <div key={category.name}>
+        <h3 className="field-label text-ink/50 mb-4">
+          {category.name}
+        </h3>
+        <PendingSlot
+          label="Not Yet Confirmed"
+          note="Reserved for confirmed gear in this category — nothing invented in the meantime."
+        />
+      </div>
+    )
+  )}
+</div>
         </div>
       </section>
 
