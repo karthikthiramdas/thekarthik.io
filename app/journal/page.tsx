@@ -7,6 +7,7 @@ import Statement from "@/components/Statement";
 import Frame from "@/components/Frame";
 import PendingSlot from "@/components/PendingSlot";
 import CollabCTA from "@/components/CollabCTA";
+import { sitePath } from "@/lib/paths";
 
 export const metadata: Metadata = {
   title: "Journal — thekarthik.io",
@@ -31,20 +32,24 @@ export default function JournalPage() {
 
   return (
     <main id="main-content">
-      <PageHero
-        index="—"
-        label={journal.hero.label}
-        context={journal.hero.context}
-        title={journal.hero.title}
-        intro={journal.hero.intro}
-      />
-
       {/* 01 — What To Expect */}
       <section className="bg-paper section-y">
         <div className="container-page max-w-2xl">
-          <Folio index={journal.categories.index} label={journal.categories.label} />
-          <Statement lines={journal.categories.headline} emphasisIndex={0} className="mt-8" />
-          <p className="mt-6 text-ink/60 leading-relaxed">{journal.categories.intro}</p>
+          <Folio
+            index={journal.categories.index}
+            label={journal.categories.label}
+          />
+
+          <Statement
+            lines={journal.categories.headline}
+            emphasisIndex={0}
+            className="mt-8"
+          />
+
+          <p className="mt-6 text-ink/60 leading-relaxed">
+            {journal.categories.intro}
+          </p>
+
           <div className="mt-8 flex flex-wrap gap-3">
             {journal.categories.names.map((name) => (
               <span
@@ -62,26 +67,38 @@ export default function JournalPage() {
       {/* 02 — Latest Stories */}
       <section className="bg-paper-dim section-y">
         <div className="container-page">
-          <Folio index={journal.latest.index} label={journal.latest.label} />
+          <Folio
+            index={journal.latest.index}
+            label={journal.latest.label}
+          />
 
           {articles.length > 0 ? (
             <div className="mt-14 grid md:grid-cols-3 gap-10">
               {articles.map((article) => (
-                <a key={article.slug} href={`/thekarthik.io/journal/${article.slug}/`} className="group block">
+                <a
+                  key={article.slug}
+                  href={sitePath(`/journal/${article.slug}`)}
+                  className="group block"
+                >
                   <Frame
                     label={article.category}
                     tone="stone"
                     ratio="portrait"
                     src={article.coverImage}
                   />
+
                   <div className="mt-5">
                     <span className="field-label text-ink/40">
                       {article.category} &middot; {article.publishedAt}
                     </span>
+
                     <h3 className="font-display text-xl mt-2 group-hover:text-oxblood transition-colors">
                       {article.title}
                     </h3>
-                    <p className="mt-2 text-ink/60 leading-relaxed text-sm">{article.excerpt}</p>
+
+                    <p className="mt-2 text-ink/60 leading-relaxed text-sm">
+                      {article.excerpt}
+                    </p>
                   </div>
                 </a>
               ))}

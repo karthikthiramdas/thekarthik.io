@@ -1,19 +1,25 @@
+const BASE_PATH = "/thekarthik.io";
+
 export function sitePath(path: string) {
-  if (!path) return "/thekarthik.io/";
+  if (!path) return `${BASE_PATH}/`;
 
   if (
     path.startsWith("http://") ||
     path.startsWith("https://") ||
     path.startsWith("mailto:") ||
-    path.startsWith("tel:") ||
-    path.startsWith("https://wa.me/")
+    path.startsWith("tel:")
   ) {
     return path;
   }
 
-  if (path.startsWith("/thekarthik.io/")) {
-    return path;
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+
+  if (
+    normalized === BASE_PATH ||
+    normalized.startsWith(`${BASE_PATH}/`)
+  ) {
+    return normalized.endsWith("/") ? normalized : `${normalized}/`;
   }
 
-  return `/thekarthik.io${path.startsWith("/") ? path : `/${path}`}`;
+  return `${BASE_PATH}${normalized.endsWith("/") ? normalized : `${normalized}/`}`;
 }

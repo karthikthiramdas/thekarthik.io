@@ -16,7 +16,7 @@ export default function IndustriesTeaser() {
             {industries.hero.teaser}
           </p>
           <a
-            href="/thekarthik.io/industries/"
+            href="/industries"
             className="field-label !text-ink/50 hover:!text-ink transition-colors shrink-0"
           >
             View Industries &rarr;

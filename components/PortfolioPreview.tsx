@@ -16,7 +16,7 @@ export default function PortfolioPreview() {
             <Statement lines={[previewHeadline]} className="mt-8" />
           </div>
           <a
-            href="/thekarthik.io/work/"
+            href="/work"
             className="field-label !text-ink/50 hover:!text-ink transition-colors"
           >
             {previewCtaLabel} &rarr;
