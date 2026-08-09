@@ -46,7 +46,20 @@ export default function Nav() {
   // background (scrolled past the hero, or the mobile menu is open),
   // text should be ink. Otherwise the header is transparent over a dark
   // section (Hero / PageHero), so text should be light/paper instead.
-  const solid = scrolled || open;
+  const lightPages = [
+  "/work",
+  "/industries",
+  "/studio",
+  "/journal",
+  "/media-kit",
+  "/contact",
+];
+
+const isLightPage = lightPages.some(
+  (page) => pathname === page || pathname.startsWith(`${page}/`)
+);
+
+const solid = scrolled || open || isLightPage;
 
   return (
     <header
