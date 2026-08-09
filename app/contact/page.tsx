@@ -96,7 +96,7 @@ export default function ContactPage() {
   label="Karthik"
   tone="stone"
   ratio="portrait"
-  src="/thekarthik.io/images/real/Contact.jpg"
+  src="/thekarthik.io/images/real/contact.jpg"
 />
         </div>
       </section>

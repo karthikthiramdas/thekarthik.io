@@ -163,7 +163,7 @@ export default function StudioPage() {
           <p className="mt-6 max-w-lg text-ink/60 leading-relaxed">
             {studio.behindTheScenes.intro}
           </p>
-          <div className="mt-14 grid md:grid-cols-2 gap-8 items-start">
+          <div className="mt-14 grid md:grid-cols-2 gap-8">
   <Frame
     label="At the Cut"
     caption="Premiere Pro, mid-edit."
@@ -173,11 +173,11 @@ export default function StudioPage() {
   />
 
   <Frame
-    label="On Location"
+    label="Behind the Camera"
     caption="Behind the camera."
     tone="stone"
-    ratio="portrait"
-    src="/thekarthik.io/images/studio/on-location.jpg"
+    ratio="cinematic"
+    src="/thekarthik.io/images/real/on-location.jpg"
   />
 </div>
         </div>

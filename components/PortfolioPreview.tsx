@@ -1,40 +1,62 @@
-import Link from "next/link";
 import { getPortfolio } from "@/lib/data";
 import Folio from "./Folio";
 import Frame from "./Frame";
-import Statement from "./Statement";
 import { sitePath } from "@/lib/paths";
 
 export default function PortfolioPreview() {
   const { selected, previewHeadline, previewCtaLabel } = getPortfolio();
-  const preview = selected.slice(0, 3);
+
   return (
     <section className="bg-paper section-y">
       <div className="container-page">
-        <div className="flex flex-wrap items-end justify-between gap-6">
-          <div>
-            <Folio index="03" label="The Work" />
-            <Statement lines={[previewHeadline]} className="mt-8" />
-          </div>
+        <Folio index="03" label="The Work" />
+
+        <div className="mt-8 flex items-end justify-between gap-8">
+          <h2 className="font-display text-balance text-[clamp(2.5rem,5vw,4.5rem)] leading-[0.95]">
+            {previewHeadline}
+          </h2>
+
           <a
             href={sitePath("/work")}
-            className="field-label !text-ink/50 hover:!text-ink transition-colors"
+            className="field-label !text-ink/50 hover:!text-ink transition-colors shrink-0"
           >
-            {previewCtaLabel} &rarr;
+            {previewCtaLabel} →
           </a>
         </div>
 
-        <div className="mt-16 grid md:grid-cols-3 gap-8">
-          {preview.map((item) => (
-            <Frame
-              key={item.id}
-              label={item.category}
-              caption={item.caption}
-              tone="brass"
-              ratio="cinematic"
-              src={item.image ?? undefined}
-            />
-          ))}
+        {/* Portfolio carousel */}
+        <div className="relative mt-16">
+          <div
+            className="
+              flex gap-8
+              overflow-x-auto
+              snap-x snap-mandatory
+              scroll-smooth
+              pb-6
+              [scrollbar-width:none]
+              [-ms-overflow-style:none]
+            "
+          >
+            {selected.map((item) => (
+              <div
+                key={item.id}
+                className="
+                  shrink-0
+                  w-[82vw]
+                  md:w-[calc((100%-2rem)/2)]
+                  snap-start
+                "
+              >
+                <Frame
+                  label={item.category}
+                  caption={item.caption}
+                  tone="brass"
+                  ratio="cinematic"
+                  src={item.image ?? undefined}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
