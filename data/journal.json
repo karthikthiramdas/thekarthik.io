@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "label": "Journal",
+    "context": "Field Notes",
+    "title": ["Stories from", "the work itself."],
+    "intro": "Notes on travel, aviation, photography, technology and the craft behind every shoot — written as the work happens, not packaged after the fact."
+  },
+  "categories": {
+    "index": "01",
+    "label": "What To Expect",
+    "headline": ["Seven lenses,", "one practice."],
+    "intro": "The Journal will grow around these categories as real stories are written — nothing here is a placeholder for content that doesn't exist yet.",
+    "names": [
+      "Travel",
+      "Aviation",
+      "Photography",
+      "Technology",
+      "Travel Gear",
+      "Behind the Scenes",
+      "Creative Process"
+    ]
+  },
+  "latest": {
+    "index": "02",
+    "label": "Latest Stories"
+  },
+  "_articleSchema": "Each entry in 'articles' should be: { slug, category, title, excerpt, publishedAt (e.g. 'June 2026'), coverImage (path under /public/images/real, optional), body: string[] (paragraphs) }. Add real entries here once a first story is written — /journal and /journal/[slug] are already built to render them; nothing else needs to change.",
+  "articles": [],
+  "cta": {
+    "index": "03",
+    "label": "Let's Work Together",
+    "headline": "Want to be part of the next story?",
+    "subtext": "From destination features to product collaborations — this is where those stories will live first.",
+    "primaryLabel": "Start a Conversation",
+    "primaryHref": "/contact"
+  }
+}

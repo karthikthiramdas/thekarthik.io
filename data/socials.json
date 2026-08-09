@@ -1,0 +1,8 @@
+{
+  "_todo": "YouTube and LinkedIn are placeholders with empty 'url' values — they stay hidden on the site until filled in. Add 'handle' and 'url' for each once you have the real links; no code changes needed.",
+  "platforms": [
+    { "name": "Instagram", "handle": "@thekarthik.io", "url": "https://instagram.com/thekarthik.io" },
+    { "name": "YouTube", "handle": "", "url": "" },
+    { "name": "LinkedIn", "handle": "", "url": "" }
+  ]
+}

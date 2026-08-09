@@ -1,0 +1,92 @@
+{
+  "slug": "giri-mane-homestay",
+  "client": "Giri Mane Homestay",
+  "category": "Homestay",
+  "status": "Completed Collaboration",
+  "hero": {
+    "title": ["Giri Mane Homestay"],
+    "subtitle": "A homestay, documented as a place — not a listing.",
+    "image": "/images/hotels/giri-mane-homestay/homestay-exterior-day.jpg"
+  },
+  "brief": {
+    "headline": ["The Brief"],
+    "paragraphs": [
+      "Giri Mane Homestay is a documentation and storytelling collaboration — the property captured as somewhere worth staying, shot and edited with the same standard as every other piece of this work.",
+      "Content was built for the homestay's own use across Airbnb and Google — photography and two short-form Reels covering the property and its setting."
+    ],
+    "facts": null
+  },
+  "direction": {
+    "headline": ["Creative Direction"],
+    "paragraphs": [
+      "A homestay asks for a different eye than a hotel. The story isn't in a lobby or a brand standard — it's in the specific, unrepeatable details a guest actually notices about a place that isn't a chain.",
+      "Two Reels carried two different registers: one a static, observational look at the property itself, the other a talking, cinematic piece giving the homestay a voice."
+    ]
+  },
+  "story": {
+    "headline": ["The Story"],
+    "paragraphs": [
+      "Set among tea and coffee plantation country, the property is framed as a slow-travel stay — its red-brick veranda, surrounding tree line and quiet pace treated as the point, not backdrop filler between amenity shots."
+    ]
+  },
+  "production": {
+    "headline": ["Production"],
+    "paragraphs": [
+      "Shot and edited solo on location, producing a full photo set of the property plus two distinct Reel formats built for Airbnb and Google promotion."
+    ],
+    "specs": [
+      { "label": "Crew", "value": "Solo — direction, camera, edit" },
+      { "label": "Camera", "value": "Samsung Galaxy S24 Ultra" },
+      { "label": "Edit", "value": "Adobe Premiere Pro" }
+    ]
+  },
+  "deliverables": {
+    "headline": ["Deliverables"],
+    "intro": "What this collaboration actually produced.",
+    "items": [
+      "Edited property photos",
+      "Raw, unedited photos",
+      "1 static Instagram Reel",
+      "1 talking, cinematic Instagram Reel",
+      "Content prepared for Airbnb and Google promotion"
+    ]
+  },
+  "finalWork": {
+    "headline": ["Final Work"],
+    "images": [
+      {
+        "src": "/images/hotels/giri-mane-homestay/homestay-exterior-day-portrait.jpg",
+        "caption": "The property, daylight"
+      },
+      {
+        "src": "/images/hotels/giri-mane-homestay/homestay-veranda-night.jpg",
+        "caption": "Veranda, evening"
+      },
+      {
+        "src": "/images/hotels/giri-mane-homestay/homestay-driveway-night.jpg",
+        "caption": "Driveway, evening arrival"
+      }
+    ],
+    "reels": [
+      {
+        "label": "Watch Static Reel",
+        "url": "https://www.instagram.com/reel/DZSnYzCPM_Z/?igsh=cmd1aXhlOXZjZDd2"
+      },
+      {
+        "label": "Watch Talking / Cinematic Reel",
+        "url": "https://www.instagram.com/reel/DZ0GKiHzD1k/?igsh=MTN6OWlrNjJud3psNg=="
+      }
+    ]
+  },
+  "testimonial": {
+    "headline": ["Testimonial"],
+    "pending": {
+      "label": "Testimonial Pending",
+      "note": "A quote from Giri Mane Homestay will appear here once received — nothing written in their voice until then."
+    }
+  },
+  "closingFrame": {
+    "line": "This is Karthik."
+  },
+  "nextSlug": "tripstay-goa"
+}

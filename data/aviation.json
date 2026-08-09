@@ -1,0 +1,13 @@
+{
+  "eyebrow": "Aviation Portfolio",
+  "headline": ["The ceremony", "of flight."],
+  "pageIntro": "Flight reviews, cabin studies, and airport experiences — shot with the same restraint an airline brings to its own cabin.",
+  "carriersHeadline": "Airlines flown and reviewed.",
+  "shots": [
+    { "id": "boarding-wide-body", "name": "Boarding, Wide Body", "image": "/images/aviation/boarding-wide-body.jpg" },
+    { "id": "business-class-cabin", "name": "Business Class Cabin Review", "image": "/images/aviation/business-class-cabin.jpg" },
+    { "id": "airport-lounge-study", "name": "Airport Lounge Study", "image": "/images/aviation/airport-lounge-study.jpg" },
+    { "id": "runway-golden-hour", "name": "Runway, Golden Hour", "image": "/images/aviation/runway-golden-hour.jpg" }
+  ],
+  "airlines": ["Air India", "Air India Express", "IndiGo", "Akasa Air", "Singapore Airlines", "Emirates", "Qatar Airways"]
+}

@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "label": "Media Kit",
+    "context": "Partnership Overview",
+    "title": [
+      "The Media Kit."
+    ],
+    "intro": "Everything a brand needs to evaluate this collaboration: who this is, who watches, what gets made, and how it starts."
+  },
+  "positioning": {
+    "index": "01",
+    "label": "Positioning",
+    "headline": [
+      "One creator.",
+      "Six industries. One standard."
+    ],
+    "paragraphs": [
+      "Travel is the stage. Stories are the product. This studio works across travel, aviation, hospitality, technology, travel gear and lifestyle — with aviation as a genuine specialty, not the definition of everything else.",
+      "The same production discipline applies regardless of category: one person, shooting and editing every frame, holding a single editorial standard from an airline cabin to a homestay veranda to a product in hand."
+    ]
+  },
+  "about": {
+    "index": "02",
+    "label": "About Karthik",
+    "headline": [
+      "Karthik Thiramdas.",
+      "Hyderabad, India."
+    ],
+    "paragraphs": [
+      "A traveller and filmmaker — no crew, no agency, no team standing off-camera. Every deliverable on this page was shot, edited, color graded and written by one person.",
+      "Full background, philosophy and process live on the Studio page — this page exists for the business case."
+    ],
+    "linkLabel": "Read the full Studio page",
+    "href": "/studio"
+  },
+  "demographicsGeography": {
+    "index": "05",
+    "label": "Audience Demographics & Geography",
+    "headline": ["Who's actually", "on the other side."]
+  },
+  "contentCapabilities": {
+    "index": "06",
+    "label": "Content Capabilities",
+    "headline": [
+      "What gets made."
+    ],
+    "intro": "The same eight capabilities referenced across this site's Industries page — consistent regardless of which page a brand arrives on.",
+    "items": [
+      "Films",
+      "Photography",
+      "Product Cinematics",
+      "Destination Storytelling",
+      "Social Campaigns",
+      "UGC",
+      "Commercial Reels",
+      "Hotel & Property Content"
+    ]
+  },
+  "industriesSummary": {
+    "index": "07",
+    "label": "Industries",
+    "headline": [
+      "Travel · Technology",
+      "Travel Gear · Lifestyle."
+    ],
+    "intro": "Four category groups this work is positioned to create for — Aviation, Hospitality, Destinations and more inside Travel; Smartphones, Cameras, Drones and more inside Technology; and further breadth across Travel Gear and Lifestyle. Full detail, including what's proven versus genuinely open, lives on the Industries page.",
+    "linkLabel": "View full Industries breakdown",
+    "href": "/industries"
+  },
+  "servicesDeliverables": {
+    "index": "10",
+    "label": "Services & Deliverables",
+    "headline": [
+      "From brief",
+      "to finished frame."
+    ],
+    "intro": "What a typical collaboration includes, start to finish.",
+    "deliverables": [
+      {
+        "name": "Concept & Script",
+        "description": "A tailored creative concept aligned to brand guidelines, before a single frame is shot."
+      },
+      {
+        "name": "Production",
+        "description": "On-location filming and photography — flight, hotel, product or destination — shot natively for the platform it's built for."
+      },
+      {
+        "name": "Edit & Colour Grade",
+        "description": "A full cinematic edit, custom color grading, licensed sound design and captions, cut personally rather than templated."
+      },
+      {
+        "name": "Usage Rights",
+        "description": "Whitelisting and organic usage terms defined clearly per package before production begins."
+      }
+    ],
+    "services": [
+      "Destination Films",
+      "Aviation & Flight Content",
+      "Hotel & Property Films",
+      "Product Cinematics",
+      "Travel Photography",
+      "Short-Form Reels",
+      "UGC",
+      "Brand Ambassador Partnerships"
+    ]
+  },
+  "partnershipOpportunities": {
+    "index": "12",
+    "label": "Partnership Opportunities",
+    "headline": [
+      "Structured for",
+      "every ambition."
+    ],
+    "intro": "Four starting structures — every collaboration is scoped individually from here.",
+    "packages": [
+      {
+        "tier": "Single Story",
+        "description": "One sponsored Reel + supporting Story set.",
+        "pricing": "Pricing on request",
+        "featured": false
+      },
+      {
+        "tier": "Campaign",
+        "description": "Multiple Reels, a photography set, and defined usage rights.",
+        "pricing": "Pricing on request",
+        "featured": false
+      },
+      {
+        "tier": "Full Production",
+        "description": "A complete destination or property film — concept through delivery and reporting.",
+        "pricing": "Pricing on request",
+        "featured": true
+      },
+      {
+        "tier": "Ongoing Partnership",
+        "description": "A long-term, ambassador-style collaboration — scope and term built around the brand.",
+        "pricing": "Pricing on request",
+        "featured": false
+      }
+    ]
+  },
+  "testimonials": {
+    "index": "11",
+    "label": "Testimonials",
+    "headline": [
+      "What partners say."
+    ],
+    "pending": {
+      "label": "Testimonials Pending",
+      "note": "Real quotes from Giri Mane Homestay and TripStay Goa will appear here once received — nothing written in their voice in the meantime."
+    }
+  },
+  "cta": {
+    "index": "13",
+    "label": "Contact",
+    "headline": "Ready to start the conversation?",
+    "subtext": "Every collaboration begins with a brief, not a form.",
+    "primaryLabel": "Get in Touch",
+    "primaryHref": "/contact",
+    "secondaryLabel": null,
+    "secondaryHref": null
+  }
+}

@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0b0d0f;
+  --ink-soft: #14171a;
+  --paper: #f4f0e6;
+  --paper-dim: #eae4d4;
+  --brass: #b8945a;
+  --brass-bright: #d4af6a;
+  --oxblood: #7a2a2e;
+  --stone: #8a8578;
+  --stone-dark: #5c584d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+}
+
+::selection {
+  background-color: var(--brass);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brass);
+  outline-offset: 3px;
+}
+
+/* Eyebrow / folio label style — monospace, quiet by default. Color is set
+   contextually (see .folio-index) rather than defaulting to brass, so brass
+   stays reserved for genuine emphasis instead of every label on the site. */
+.field-label {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+/* The folio index number — the one piece of every Folio mark allowed to
+   carry the brass accent, since it functions like a running page number. */
+.folio-index {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  color: var(--brass);
+}
+
+/* Perforated divider — the boarding-stub motif. Scoped to the Aviation
+   vertical only; not used as a global system device anymore. */
+.stub-edge {
+  position: relative;
+}
+.stub-edge::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    currentColor 0,
+    currentColor 6px,
+    transparent 6px,
+    transparent 14px
+  );
+  opacity: 0.35;
+}
+
+/* Quiet grain used on placeholder Frames so an un-photographed slot reads as
+   a considered editorial "study" rather than an empty gradient box. */
+.frame-study {
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(212, 175, 106, 0.05), transparent 45%),
+    radial-gradient(circle at 85% 80%, rgba(122, 42, 46, 0.06), transparent 50%);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.container-page {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.25rem, 5vw, 4rem);
+  padding-right: clamp(1.25rem, 5vw, 4rem);
+}
+
+/* Named vertical rhythm scale — one system reused across every page instead
+   of each section author picking py-* values independently. */
+.section-y {
+  padding-top: clamp(4.5rem, 9vw, 8rem);
+  padding-bottom: clamp(4.5rem, 9vw, 8rem);
+}
+.section-y-lg {
+  padding-top: clamp(6rem, 12vw, 11rem);
+  padding-bottom: clamp(6rem, 12vw, 11rem);
+}

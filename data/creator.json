@@ -1,0 +1,54 @@
+{
+  "name": "Karthik Thiramdas",
+  "handle": "@thekarthik.io",
+  "titles": ["Traveller", "Filmmaker", "Storyteller"],
+  "location": "Hyderabad, India",
+  "email": "thekarthikthiramdas@gmail.com",
+  "instagram": "https://instagram.com/thekarthik.io",
+  "tagline": "Travel is the stage. Stories are the product. A traveller and filmmaker telling cinematic stories across aviation, hotels, technology and travel.",
+  "aboutPage": {
+    "title": ["Karthik", "Thiramdas"]
+  },
+  "brandStory": {
+    "eyebrow": "The Studio",
+    "headline": ["One creator.", "Production-level craft."],
+    "paragraphs": [
+      "thekarthik.io is not a team pretending to be a person, or a person pretending to be a team. It's one creator — shooting, editing, color grading and writing every story himself, with the discipline a five-star cabin or a well-run production brings to its own craft.",
+      "The work spans aviation, hotels, consumer technology and travel gear, but the standard doesn't change from one to the next: every frame considered, every story cut with intent, nothing rushed just to keep pace with a feed."
+    ]
+  },
+  "about": {
+    "paragraphs": [
+      "I tell stories at the intersection of aviation and travel — the quiet ceremony of boarding, the design language of a well-run hotel, the small details that separate an ordinary trip from an extraordinary one.",
+      "Based in Hyderabad and building an audience across India's most travel-curious cities, my work centres on flight reviews, airport experiences, hotel stays, and destination films shot with cinematic intent rather than volume."
+    ],
+    "tags": ["Aviation Creator", "Luxury Travel", "Hotels", "Travel Tips", "Premium Experiences"]
+  },
+  "mission": "To inspire people to travel smarter through cinematic storytelling — showcasing premium travel experiences, aviation, destinations, hotels, and the hidden gems in between.",
+  "philosophy": {
+    "eyebrow": "Creator Philosophy",
+    "headline": ["Trust before reach.", "Craft before volume."],
+    "pillars": [
+      {
+        "title": "Authenticity First",
+        "description": "Only destinations, hotels and flights genuinely experienced — never a paid opinion dressed as a review."
+      },
+      {
+        "title": "Cinematic Discipline",
+        "description": "Every frame considered. Colour, pacing and sound designed to feel like a short film, not a snapshot."
+      },
+      {
+        "title": "Fewer, Better Stories",
+        "description": "Consistency over frequency — content built to be re-watched, saved, and shared, not scrolled past."
+      },
+      {
+        "title": "Audience Respect",
+        "description": "Travel advice that is genuinely useful — real prices, real logistics, real trade-offs."
+      }
+    ]
+  },
+  "contentStyle": [
+    "Luxury", "Minimal", "Cinematic", "Modern", "Editorial", "Authentic",
+    "Story Driven", "Premium", "Emotional", "Aspirational", "High Production"
+  ]
+}

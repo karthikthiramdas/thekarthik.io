@@ -1,0 +1,95 @@
+{
+  "slug": "tripstay-goa",
+  "client": "TripStay Goa",
+  "category": "Property / Villa · Hospitality",
+  "status": "Completed Collaboration",
+  "hero": {
+    "title": ["TripStay Goa"],
+    "subtitle": "A full property stay, documented — check-in to closing frame.",
+    "image": "/images/hotels/tripstay-goa/infinity-pool-monsoon.jpg"
+  },
+  "brief": {
+    "headline": ["The Brief"],
+    "paragraphs": [
+      "TripStay brought this work on to document a full stay at their Goa property — content built to cover the property itself, room by room, rather than a single highlight reel.",
+      "The brief covered check-in through checkout: bedrooms, living areas, kitchen, bathrooms, balcony views, the pool, amenities and the surrounding neighbourhood — shot to be genuinely usable across TripStay's own Instagram, Facebook, website, ads, brochures and WhatsApp marketing."
+    ],
+    "facts": [
+      { "label": "Location", "value": "Goa, India" },
+      { "label": "Property Coverage", "value": "Full stay, room by room" },
+      { "label": "Delivery", "value": "Google Drive" }
+    ]
+  },
+  "direction": {
+    "headline": ["Creative Direction"],
+    "paragraphs": [
+      "Rather than a single polished reel, the direction called for full coverage — a cinematic walkthrough of every room, lifestyle shots of the amenities and surroundings, and both a morning and evening read of the same spaces.",
+      "Video was shot in LOG rather than a baked-in look, so the footage could carry a considered cinematic grade in the final edit and still remain flexible for TripStay's own future use."
+    ]
+  },
+  "story": {
+    "headline": ["The Story"],
+    "paragraphs": [
+      "The film and photo set follow one genuine stay through the property — check-in, the rooms, the pool, the view, the ambiance of morning and evening — built to read as a real stay rather than a listing shoot."
+    ]
+  },
+  "production": {
+    "headline": ["Production"],
+    "paragraphs": [
+      "Shot and edited solo on location, built around full coverage of the property rather than a single hero angle — interiors, the pool, the view, and the property's morning and evening character.",
+      "Raw video was recorded in LOG. Custom LUTs built for the final cinematic grade were delivered alongside the raw footage, so TripStay can re-cut the material themselves."
+    ],
+    "specs": [
+      { "label": "Crew", "value": "Solo — direction, camera, edit" },
+      { "label": "Camera", "value": "Samsung Galaxy S24 Ultra" },
+      { "label": "Video Format", "value": "4K, LOG — vertical & horizontal" },
+      { "label": "Edit", "value": "Adobe Premiere Pro" }
+    ]
+  },
+  "deliverables": {
+    "headline": ["Deliverables"],
+    "intro": "What this collaboration actually produced.",
+    "items": [
+      "1 edited Instagram Reel — full stay experience",
+      "Instagram Story files from the stay",
+      "Edited property photos",
+      "Raw, unedited photos",
+      "15–20 raw video clips, captured in LOG, including both vertical and horizontal footage",
+      "LOG → final colour grading LUTs, delivered for TripStay's own use"
+    ]
+  },
+  "finalWork": {
+    "headline": ["Final Work"],
+    "images": [
+      {
+        "src": "/images/hotels/tripstay-goa/courtyard-pool-night-portrait.jpg",
+        "caption": "Courtyard pool, evening ambiance"
+      },
+      {
+        "src": "/images/hotels/tripstay-goa/living-room-portrait.jpg",
+        "caption": "Living room"
+      },
+      {
+        "src": "/images/hotels/tripstay-goa/infinity-pool-monsoon-portrait.jpg",
+        "caption": "Infinity pool, monsoon-season view"
+      }
+    ],
+    "reels": [
+      {
+        "label": "Watch the Reel",
+        "url": "https://www.instagram.com/reel/Dbs-QYUzn94/?igsh=MWlzdzFuZDhiOHllZQ=="
+      }
+    ]
+  },
+  "testimonial": {
+    "headline": ["Testimonial"],
+    "pending": {
+      "label": "Testimonial Pending",
+      "note": "A quote from TripStay Goa will appear here once received — nothing written in their voice until then."
+    }
+  },
+  "closingFrame": {
+    "line": "This is Karthik."
+  },
+  "nextSlug": "giri-mane-homestay"
+}

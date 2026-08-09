@@ -1,0 +1,26 @@
+{
+  "previewHeadline": "Selected work.",
+  "previewCtaLabel": "View the Work",
+  "pageTitle": ["Frames built", "for stillness."],
+  "pageIntro": "A working selection of photography and film stills across aviation, hotels, technology and travel.",
+  "selected": [
+    {
+      "id": "tarmac-descent",
+      "caption": "Tarmac, Ladakh",
+      "category": "Aviation",
+      "image": "/images/real/tarmac-aircraft.jpeg"
+    },
+    {
+      "id": "cabin-window",
+      "caption": "Cabin Detail",
+      "category": "Aviation",
+      "image": "/images/real/cabin-tray.jpeg"
+    },
+    {
+      "id": "hospitality-study",
+      "caption": "TripStay Goa",
+      "category": "Hotels",
+      "image": "/images/hotels/tripstay-goa/infinity-pool-monsoon-portrait.jpg"
+    }
+  ]
+}

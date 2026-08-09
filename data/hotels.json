@@ -1,0 +1,10 @@
+{
+  "eyebrow": "Hotels Portfolio",
+  "headline": ["Hospitality,", "reviewed with care."],
+  "shots": [
+    { "id": "suite-walkthrough", "name": "Suite Walkthrough", "image": "/images/hotels/suite-walkthrough.jpg" },
+    { "id": "rooftop-pool-evening", "name": "Rooftop Pool, Evening", "image": "/images/hotels/rooftop-pool-evening.jpg" },
+    { "id": "breakfast-service-study", "name": "Breakfast Service Study", "image": "/images/hotels/breakfast-service-study.jpg" },
+    { "id": "concierge-detail", "name": "Concierge Detail", "image": "/images/hotels/concierge-detail.jpg" }
+  ]
+}

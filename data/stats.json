@@ -1,0 +1,71 @@
+{
+  "asOf": "2026-08",
+  "reportingWindow": "90 days \u00b7 11 May \u2013 7 Aug 2026",
+  "audience": {
+    "followers": 3665,
+    "views90d": 227522,
+    "interactions90d": 18417,
+    "netFollowers90d": 80
+  },
+  "audienceHighlights": [
+    { "key": "followers", "label": "Instagram Followers" },
+    { "key": "views90d", "label": "Views \u2014 Last 90 Days" },
+    { "key": "interactions90d", "label": "Interactions \u2014 Last 90 Days" },
+    { "key": "netFollowers90d", "label": "Net New Followers \u2014 90 Days" }
+  ],
+  "audienceSection": {
+    "headline": "The numbers behind the storytelling.",
+    "noteTemplate": "Over the last 90 days, this account generated {views90d} views \u2014 76.3% of them from non-followers. That is the signature of content built for reach, not just retention."
+  },
+  "demographics": {
+    "genderSplit": { "women": 12.8, "men": 87.2 },
+    "topAgeGroups": [
+      { "range": "18-24", "value": 30.6 },
+      { "range": "25-34", "value": 51.3 },
+      { "range": "35-44", "value": 13.7 },
+      { "range": "45+", "value": 3.7 }
+    ],
+    "whyThisMatters": "A 25\u201334-led audience, over half the total, sits squarely in the primary decision-making demographic for premium travel, hospitality and technology purchases \u2014 high-value viewers, not just high-volume ones."
+  },
+  "locations": {
+    "indiaPercent": 90.4,
+    "topCities": [
+      { "name": "Chanda Nagar", "value": 10.5 },
+      { "name": "Hyderabad", "value": 8.7 },
+      { "name": "Bangalore", "value": 5.9 },
+      { "name": "Visakhapatnam", "value": 3.9 },
+      { "name": "Vijayawada", "value": 3.0 }
+    ]
+  },
+  "performanceSection": {
+    "headline": "Engagement that converts to action."
+  },
+  "growthSection": {
+    "headline": "Growth trajectory."
+  },
+  "performance": [
+    { "label": "Profile Visits", "value": 4195, "suffix": "", "description": "Viewers taking a deliberate next step beyond the feed, over 90 days." },
+    { "label": "Non-Follower Views", "value": 76.3, "suffix": "%", "description": "Content surfacing to new audiences via Explore and Reels." },
+    { "label": "Interactions", "value": 18417, "suffix": "", "description": "Likes, comments and reposts across the 90-day window." },
+    { "label": "Bio Link Taps", "value": 46, "suffix": "", "description": "Early-stage funnel \u2014 headroom for future campaign links." }
+  ],
+  "growth": {
+    "reelsViews90d": 180000,
+    "netFollowers90d": 80,
+    "notes": [
+      { "title": "76.3% Non-Follower Views", "description": "Most views come from outside the existing follower base \u2014 evidence of algorithmic distribution, not just retention." },
+      { "title": "Reels-Led Distribution", "description": "Reels account for the large majority of the 90-day view total, ahead of Stories and static posts." },
+      { "title": "Reach Over Retention", "description": "Growth is currently discovery-led \u2014 an ideal stage for a brand to enter early and be part of the story." }
+    ]
+  },
+  "topReel": {
+    "views": 59000,
+    "format": "Reels \u2014 majority of 90-day views",
+    "insight": "The best-performing single piece of content in this window drew roughly 59,000 views on its own \u2014 well beyond the current follower count."
+  },
+  "previousResults": {
+    "views90d": 227522,
+    "interactions90d": 18417,
+    "note": "Every figure on this page is drawn directly from Instagram's own Insights dashboard \u2014 nothing extrapolated or projected. Reporting window: 11 May \u2013 7 Aug 2026."
+  }
+}

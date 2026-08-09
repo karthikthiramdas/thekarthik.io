@@ -1,0 +1,12 @@
+{
+  "eyebrow": "Brand Collaboration Opportunities",
+  "headline": ["Categories built", "for this audience."],
+  "categories": [
+    { "name": "Airlines", "examples": "Air India, Air India Express, IndiGo, Akasa Air, Singapore Airlines, Emirates, Qatar Airways" },
+    { "name": "Hotels & Hospitality", "examples": "Marriott, Hilton, IHG, Hyatt, Radisson" },
+    { "name": "Travel & Booking", "examples": "Airbnb, MakeMyTrip, Booking.com" },
+    { "name": "Technology & Gear", "examples": "Samsung, DJI, GoPro, Sony" },
+    { "name": "Finance & Lifestyle", "examples": "Visa, Mastercard, American Express, Luggage Brands" },
+    { "name": "Tourism & Insurance", "examples": "Tourism Boards, Travel Insurance Companies" }
+  ]
+}

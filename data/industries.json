@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "label": "Industries",
+    "context": "Where This Work Fits",
+    "title": ["Can Karthik create", "something for your industry?"],
+    "intro": "Aviation remains one of the strongest pillars of this work — but the same production discipline applies anywhere travel, technology or premium lifestyle intersect with a camera. What follows is organized honestly: what's positioned to be created, what's actually been made, and what's genuinely still open.",
+    "teaser": "Aviation remains one of the strongest pillars of this work — but the same discipline applies anywhere travel, technology or premium lifestyle intersect with a camera."
+  },
+  "categoriesIntro": "Industries I work across.",
+  "categoriesSubIntro": "Not a claim of past clients in every category below — a statement of creative capability. Each one shown with what this studio can actually produce for it.",
+  "categories": [
+    {
+      "name": "Travel",
+      "description": "Where the work started, and still runs deepest.",
+      "items": [
+        "Airlines",
+        "Hotels & Resorts",
+        "Homestays & Villas",
+        "Tourism Boards",
+        "Travel Agencies",
+        "Travel Platforms",
+        "Aviation Experiences"
+      ],
+      "creates": ["Destination Storytelling", "Hotel & Property Content", "Films", "Photography", "Social Campaigns"]
+    },
+    {
+      "name": "Technology",
+      "description": "The devices that shoot, edit and carry the work — reviewed and shot with real domain fluency.",
+      "items": [
+        "Smartphones",
+        "Cameras",
+        "Action Cameras",
+        "Drones",
+        "Audio",
+        "Wearables",
+        "Computing",
+        "Accessories"
+      ],
+      "creates": ["Product Cinematics", "Photography", "Commercial Reels", "UGC"]
+    },
+    {
+      "name": "Travel Gear",
+      "description": "Genuinely used on every trip, not staged for a single post.",
+      "items": ["Backpacks", "Luggage", "Travel Accessories", "Power", "Travel Gadgets"],
+      "creates": ["Product Cinematics", "UGC", "Commercial Reels", "Photography"]
+    },
+    {
+      "name": "Lifestyle",
+      "description": "Premium and adventure brands adjacent to how this work moves through the world.",
+      "items": ["Automotive", "Fintech / Travel Cards", "Premium Lifestyle", "Outdoor / Adventure", "Food & Beverage"],
+      "creates": ["Films", "Photography", "Social Campaigns", "Commercial Reels"]
+    }
+  ],
+  "aviationSpotlight": {
+    "seq": "SPECIALTY",
+    "from": "GATE",
+    "to": "CRUISE",
+    "headline": ["Aviation.", "The one specialty this camera never left."],
+    "paragraph": "Before this became a studio, it was a habit — flights documented for their own sake, not for a brand. That's the one category with a visual language of its own on this site, carried by the boarding-pass device wherever aviation appears.",
+    "images": ["/images/real/wing-sunset.jpeg", "/images/real/tarmac-aircraft.jpeg", "/images/real/cabin-tray.jpeg"]
+  },
+  "completedWork": {
+    "label": "Completed Work",
+    "headline": ["Work that actually exists."],
+    "intro": "Individual frames from the aviation work this studio is built on — the fuller selection lives on the Work page.",
+    "href": "/work",
+    "linkLabel": "See the full Work page"
+  },
+  "collaborationsIntro": "Collaborations.",
+  "collaborationsSubIntro": "Brands and properties this work has actually been made for — kept visibly separate from the categories above.",
+  "collaborations": [
+    {
+      "name": "Giri Mane Homestay",
+      "category": "Homestay",
+      "summary": "A homestay documentation and storytelling collaboration — the property shot and edited as a place worth staying, not a listing to scroll past.",
+      "image": "/images/hotels/giri-mane-homestay/homestay-exterior-day.jpg",
+      "href": "/work/case-studies/giri-mane-homestay"
+    },
+    {
+      "name": "TripStay Goa",
+      "category": "Property / Villa",
+      "summary": "A full-property content collaboration in Goa — reel, story sets, and edited and raw photography and video across the entire stay.",
+      "image": "/images/hotels/tripstay-goa/infinity-pool-monsoon.jpg",
+      "href": "/work/case-studies/tripstay-goa"
+    }
+  ],
+  "openCategories": {
+    "label": "Open Categories",
+    "headline": ["Genuinely open,", "not filled with a placeholder client."],
+    "intro": "Technology, Travel Gear and Lifestyle have no completed collaboration yet — stated plainly rather than padded with an implied brand relationship. If your category is one of these, this is the actual starting point.",
+    "names": ["Technology", "Travel Gear", "Lifestyle"]
+  },
+  "cta": {
+    "label": "Start a Conversation",
+    "headline": "See where your brand fits into this.",
+    "subtext": "Whether it's a category already proven or one that's genuinely open.",
+    "primaryLabel": "Get in Touch",
+    "primaryHref": "/contact",
+    "secondaryLabel": "View Media Kit",
+    "secondaryHref": "/media-kit"
+  }
+}
