@@ -52,13 +52,13 @@ export default function Hero() {
           className="mt-12 flex items-center gap-6"
         >
           <a
-            href={hero.primaryCta.href}
+            href={`/thekarthik.io${hero.primaryCta.href}`}
             className="inline-flex items-center gap-3 border border-brass/60 text-brass-bright px-6 py-3 field-label hover:bg-brass hover:text-ink hover:border-brass transition-colors"
           >
             {hero.primaryCta.label}
           </a>
           <a
-            href={hero.secondaryCta.href}
+            href={`/thekarthik.io${hero.secondaryCta.href}`}
             className="field-label !text-paper/50 hover:!text-paper transition-colors"
           >
             {hero.secondaryCta.label}
