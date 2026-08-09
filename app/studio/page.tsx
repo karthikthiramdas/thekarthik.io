@@ -148,21 +148,21 @@ export default function StudioPage() {
               caption="Field, unedited."
               tone="stone"
               ratio="square"
-              src="/images/studio/behind-work-01-temp.jpg"
+              src="/thekarthik.io/images/studio/behind-work-01-temp.jpg"
             />
             <Frame
               label="At the Cut"
               caption="Premiere Pro, mid-edit."
               tone="brass"
               ratio="square"
-              src="/images/studio/behind-work-02-temp.jpg"
+              src="/thekarthik.io/images/studio/behind-work-02-temp.jpg"
             />
             <Frame
               label="Color & Sound"
               caption="Grade and score pass."
               tone="oxblood"
               ratio="square"
-              src="/images/studio/behind-work-03-temp.jpg"
+              src="/thekarthik.io/images/studio/behind-work-03-temp.jpg"
             />
           </div>
         </div>

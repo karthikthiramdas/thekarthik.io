@@ -2,9 +2,9 @@
   "eyebrow": "Hotels Portfolio",
   "headline": ["Hospitality,", "reviewed with care."],
   "shots": [
-    { "id": "suite-walkthrough", "name": "Suite Walkthrough", "image": "/images/hotels/suite-walkthrough.jpg" },
-    { "id": "rooftop-pool-evening", "name": "Rooftop Pool, Evening", "image": "/images/hotels/rooftop-pool-evening.jpg" },
-    { "id": "breakfast-service-study", "name": "Breakfast Service Study", "image": "/images/hotels/breakfast-service-study.jpg" },
-    { "id": "concierge-detail", "name": "Concierge Detail", "image": "/images/hotels/concierge-detail.jpg" }
+    { "id": "suite-walkthrough", "name": "Suite Walkthrough", "image": "/thekarthik.io/images/hotels/suite-walkthrough.jpg" },
+    { "id": "rooftop-pool-evening", "name": "Rooftop Pool, Evening", "image": "/thekarthik.io/images/hotels/rooftop-pool-evening.jpg" },
+    { "id": "breakfast-service-study", "name": "Breakfast Service Study", "image": "/thekarthik.io/images/hotels/breakfast-service-study.jpg" },
+    { "id": "concierge-detail", "name": "Concierge Detail", "image": "/thekarthik.io/images/hotels/concierge-detail.jpg" }
   ]
 }

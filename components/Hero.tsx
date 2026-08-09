@@ -76,7 +76,7 @@ export default function Hero() {
           label="Wing Study, Golden Hour"
           tone="oxblood"
           ratio="full"
-          src="/images/real/wing-sunset.jpeg"
+          src="/thekarthik.io/images/real/wing-sunset.jpeg"
           priority
           sizes="50vw"
           className="h-full [&>div]:h-full [&>div]:aspect-auto [&>div]:rounded-none"

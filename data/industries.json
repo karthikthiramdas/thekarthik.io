@@ -57,7 +57,7 @@
     "to": "CRUISE",
     "headline": ["Aviation.", "The one specialty this camera never left."],
     "paragraph": "Before this became a studio, it was a habit — flights documented for their own sake, not for a brand. That's the one category with a visual language of its own on this site, carried by the boarding-pass device wherever aviation appears.",
-    "images": ["/images/real/wing-sunset.jpeg", "/images/real/tarmac-aircraft.jpeg", "/images/real/cabin-tray.jpeg"]
+    "images": ["/thekarthik.io/images/real/wing-sunset.jpeg", "/thekarthik.io/images/real/tarmac-aircraft.jpeg", "/thekarthik.io/images/real/cabin-tray.jpeg"]
   },
   "completedWork": {
     "label": "Completed Work",
@@ -73,14 +73,14 @@
       "name": "Giri Mane Homestay",
       "category": "Homestay",
       "summary": "A homestay documentation and storytelling collaboration — the property shot and edited as a place worth staying, not a listing to scroll past.",
-      "image": "/images/hotels/giri-mane-homestay/homestay-exterior-day.jpg",
+      "image": "/thekarthik.io/images/hotels/giri-mane-homestay/homestay-exterior-day.jpg",
       "href": "/work/case-studies/giri-mane-homestay"
     },
     {
       "name": "TripStay Goa",
       "category": "Property / Villa",
       "summary": "A full-property content collaboration in Goa — reel, story sets, and edited and raw photography and video across the entire stay.",
-      "image": "/images/hotels/tripstay-goa/infinity-pool-monsoon.jpg",
+      "image": "/thekarthik.io/images/hotels/tripstay-goa/infinity-pool-monsoon.jpg",
       "href": "/work/case-studies/tripstay-goa"
     }
   ],

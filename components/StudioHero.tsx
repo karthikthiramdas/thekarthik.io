@@ -19,7 +19,7 @@ export default function StudioHero() {
           label="Forest Study"
           tone="stone"
           ratio="full"
-          src="/images/real/portrait-forest.jpeg"
+          src="/thekarthik.io/images/real/portrait-forest.jpeg"
           priority
           sizes="50vw"
           className="h-full [&>div]:h-full [&>div]:aspect-auto [&>div]:rounded-none"

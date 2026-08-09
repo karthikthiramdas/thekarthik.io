@@ -6,7 +6,7 @@
   "hero": {
     "title": ["Giri Mane Homestay"],
     "subtitle": "A homestay, documented as a place — not a listing.",
-    "image": "/images/hotels/giri-mane-homestay/homestay-exterior-day.jpg"
+    "image": "/thekarthik.io/images/hotels/giri-mane-homestay/homestay-exterior-day.jpg"
   },
   "brief": {
     "headline": ["The Brief"],
@@ -55,15 +55,15 @@
     "headline": ["Final Work"],
     "images": [
       {
-        "src": "/images/hotels/giri-mane-homestay/homestay-exterior-day-portrait.jpg",
+        "src": "/thekarthik.io/images/hotels/giri-mane-homestay/homestay-exterior-day-portrait.jpg",
         "caption": "The property, daylight"
       },
       {
-        "src": "/images/hotels/giri-mane-homestay/homestay-veranda-night.jpg",
+        "src": "/thekarthik.io/images/hotels/giri-mane-homestay/homestay-veranda-night.jpg",
         "caption": "Veranda, evening"
       },
       {
-        "src": "/images/hotels/giri-mane-homestay/homestay-driveway-night.jpg",
+        "src": "/thekarthik.io/images/hotels/giri-mane-homestay/homestay-driveway-night.jpg",
         "caption": "Driveway, evening arrival"
       }
     ],

@@ -6,7 +6,7 @@
   "hero": {
     "title": ["TripStay Goa"],
     "subtitle": "A full property stay, documented — check-in to closing frame.",
-    "image": "/images/hotels/tripstay-goa/infinity-pool-monsoon.jpg"
+    "image": "/thekarthik.io/images/hotels/tripstay-goa/infinity-pool-monsoon.jpg"
   },
   "brief": {
     "headline": ["The Brief"],
@@ -62,15 +62,15 @@
     "headline": ["Final Work"],
     "images": [
       {
-        "src": "/images/hotels/tripstay-goa/courtyard-pool-night-portrait.jpg",
+        "src": "/thekarthik.io/images/hotels/tripstay-goa/courtyard-pool-night-portrait.jpg",
         "caption": "Courtyard pool, evening ambiance"
       },
       {
-        "src": "/images/hotels/tripstay-goa/living-room-portrait.jpg",
+        "src": "/thekarthik.io/images/hotels/tripstay-goa/living-room-portrait.jpg",
         "caption": "Living room"
       },
       {
-        "src": "/images/hotels/tripstay-goa/infinity-pool-monsoon-portrait.jpg",
+        "src": "/thekarthik.io/images/hotels/tripstay-goa/infinity-pool-monsoon-portrait.jpg",
         "caption": "Infinity pool, monsoon-season view"
       }
     ],

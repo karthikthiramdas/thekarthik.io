@@ -109,9 +109,9 @@ export default function IndustriesPage() {
             </Link>
           </div>
           <div className="mt-10 grid md:grid-cols-3 gap-6">
-            <Frame label="Aviation" caption="Wing Study, Golden Hour" tone="brass" ratio="square" src="/images/real/wing-sunset.jpeg" />
-            <Frame label="Aviation" caption="Tarmac, Ladakh" tone="brass" ratio="square" src="/images/real/tarmac-aircraft.jpeg" />
-            <Frame label="Aviation" caption="Cabin Detail" tone="brass" ratio="square" src="/images/real/cabin-tray.jpeg" />
+            <Frame label="Aviation" caption="Wing Study, Golden Hour" tone="brass" ratio="square" src="/thekarthik.io/images/real/wing-sunset.jpeg" />
+            <Frame label="Aviation" caption="Tarmac, Ladakh" tone="brass" ratio="square" src="/thekarthik.io/images/real/tarmac-aircraft.jpeg" />
+            <Frame label="Aviation" caption="Cabin Detail" tone="brass" ratio="square" src="/thekarthik.io/images/real/cabin-tray.jpeg" />
           </div>
         </div>
       </section>

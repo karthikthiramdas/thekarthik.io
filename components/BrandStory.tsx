@@ -26,7 +26,7 @@ export default function BrandStory() {
           caption="Karthik, on location."
           tone="stone"
           ratio="portrait"
-          src="/images/real/portrait-camera.jpeg"
+          src="/thekarthik.io/images/real/portrait-camera.jpeg"
         />
       </div>
     </section>

@@ -2,6 +2,7 @@
 const nextConfig = {
   output: "export",
   basePath: "/thekarthik.io",
+  assetPrefix: "/thekarthik.io/",
   images: {
     unoptimized: true,
   },

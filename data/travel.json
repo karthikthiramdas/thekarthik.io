@@ -4,9 +4,9 @@
   "pageIntro": "Destination films and photo essays built for re-watching — favouring fewer, better stories over volume.",
   "audienceLabel": "Audience Based in India",
   "destinations": [
-    { "id": "backwaters-kerala", "name": "Backwaters, Kerala", "image": "/images/travel/backwaters-kerala.jpg" },
-    { "id": "blue-city-rajasthan", "name": "Blue City, Rajasthan", "image": "/images/travel/blue-city-rajasthan.jpg" },
-    { "id": "himalayan-foothills", "name": "Himalayan Foothills", "image": "/images/travel/himalayan-foothills.jpg" },
-    { "id": "coastal-goa", "name": "Coastal Goa, Off-Season", "image": "/images/travel/coastal-goa.jpg" }
+    { "id": "backwaters-kerala", "name": "Backwaters, Kerala", "image": "/thekarthik.io/images/travel/backwaters-kerala.jpg" },
+    { "id": "blue-city-rajasthan", "name": "Blue City, Rajasthan", "image": "/thekarthik.io/images/travel/blue-city-rajasthan.jpg" },
+    { "id": "himalayan-foothills", "name": "Himalayan Foothills", "image": "/thekarthik.io/images/travel/himalayan-foothills.jpg" },
+    { "id": "coastal-goa", "name": "Coastal Goa, Off-Season", "image": "/thekarthik.io/images/travel/coastal-goa.jpg" }
   ]
 }
