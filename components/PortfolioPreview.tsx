@@ -31,7 +31,7 @@ export default function PortfolioPreview() {
               label={item.category}
               caption={item.caption}
               tone="brass"
-              ratio="portrait"
+              ratio="cinematic"
               src={item.image ?? undefined}
             />
           ))}

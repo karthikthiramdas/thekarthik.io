@@ -163,29 +163,23 @@ export default function StudioPage() {
           <p className="mt-6 max-w-lg text-ink/60 leading-relaxed">
             {studio.behindTheScenes.intro}
           </p>
-          <div className="mt-14 grid md:grid-cols-3 gap-8">
-            <Frame
-              label="On Location"
-              caption="Field, unedited."
-              tone="stone"
-              ratio="square"
-              src="/thekarthik.io/images/studio/behind-work-01-temp.jpg"
-            />
-            <Frame
-              label="At the Cut"
-              caption="Premiere Pro, mid-edit."
-              tone="brass"
-              ratio="square"
-              src="/thekarthik.io/images/studio/behind-work-02-temp.jpg"
-            />
-            <Frame
-              label="Color & Sound"
-              caption="Grade and score pass."
-              tone="oxblood"
-              ratio="square"
-              src="/thekarthik.io/images/studio/behind-work-03-temp.jpg"
-            />
-          </div>
+          <div className="mt-14 grid md:grid-cols-2 gap-8 items-start">
+  <Frame
+    label="At the Cut"
+    caption="Premiere Pro, mid-edit."
+    tone="brass"
+    ratio="cinematic"
+    src="/thekarthik.io/images/studio/premiere-pro-edit.jpg"
+  />
+
+  <Frame
+    label="On Location"
+    caption="Behind the camera."
+    tone="stone"
+    ratio="portrait"
+    src="/thekarthik.io/images/studio/on-location.jpg"
+  />
+</div>
         </div>
       </section>
 
