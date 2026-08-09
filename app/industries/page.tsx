@@ -102,7 +102,7 @@ export default function IndustriesPage() {
               {industries.completedWork.intro}
             </p>
             <Link
-              href={industries.completedWork.href}
+              href={`/thekarthik.io${industries.completedWork.href}/`}
               className="field-label !text-ink/50 hover:!text-ink transition-colors shrink-0"
             >
               {industries.completedWork.linkLabel} &rarr;

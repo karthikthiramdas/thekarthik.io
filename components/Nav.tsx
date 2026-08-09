@@ -76,7 +76,7 @@ export default function Nav() {
             return (
               <Link
                 key={l.href}
-                href={l.href}
+                href={`${l.href}/`}
                 aria-current={active ? "page" : undefined}
                 className={`field-label whitespace-nowrap py-2 transition-colors duration-500 border-b ${
                   solid
@@ -124,7 +124,7 @@ export default function Nav() {
               return (
                 <Link
                   key={l.href}
-                  href={l.href}
+              href={`${l.href}/`}
                   tabIndex={open ? undefined : -1}
                   aria-current={active ? "page" : undefined}
                   className={`font-display text-2xl py-3 transition-colors ${
