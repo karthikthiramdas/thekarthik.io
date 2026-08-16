@@ -54,9 +54,11 @@ type CaseStudyData = {
     }[];
   };
   testimonial: {
-    headline: string[];
-    pending?: Pending;
-  };
+  headline: string[];
+  quote?: string;
+  author?: string;
+  pending?: Pending;
+};
   closingFrame: {
     line: string;
   };
@@ -265,20 +267,35 @@ export default function CaseStudy({
       </section>
 
       {/* Testimonial */}
-      {data.testimonial.pending && (
+           {/* Testimonial */}
+      {(data.testimonial.quote || data.testimonial.pending) && (
         <section className="bg-paper section-y">
-          <div className="container-page max-w-lg">
+          <div className="container-page max-w-3xl">
             <Folio
               index="07"
               label={data.testimonial.headline[0]}
             />
 
-            <div className="mt-10">
-              <PendingSlot
-                label={data.testimonial.pending.label}
-                note={data.testimonial.pending.note}
-              />
-            </div>
+            {data.testimonial.quote ? (
+              <div className="mt-12">
+                <blockquote className="font-display text-2xl md:text-4xl leading-tight text-ink/80">
+                  “{data.testimonial.quote}”
+                </blockquote>
+
+                {data.testimonial.author && (
+                  <p className="mt-8 field-label text-ink/40">
+                    — {data.testimonial.author}
+                  </p>
+                )}
+              </div>
+            ) : data.testimonial.pending ? (
+              <div className="mt-10">
+                <PendingSlot
+                  label={data.testimonial.pending.label}
+                  note={data.testimonial.pending.note}
+                />
+              </div>
+            ) : null}
           </div>
         </section>
       )}

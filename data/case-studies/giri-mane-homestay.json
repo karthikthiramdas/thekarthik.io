@@ -64,13 +64,11 @@
       }
     ]
   },
-  "testimonial": {
-    "headline": ["Testimonial"],
-    "pending": {
-      "label": "Testimonial Pending",
-      "note": "A quote from Giri Mane Homestay will appear here once received — nothing written in their voice until then."
-    }
-  },
+ "testimonial": {
+  "headline": ["Testimonial"],
+  "quote": "We are incredibly grateful to Karthik for the amazing feature on our homestay. Their attention to detail, stunning visual storytelling, and authentic articulation perfectly highlighted what makes our space unique. They were incredibly respectful, professional, and easy to work with throughout their stay. If you are looking for a creator who genuinely connects with their audience and delivers top-tier content, look no further! Thank you so much Karthik... Happy to host you again...",
+  "author": "Giri Mane Homestay"
+},
   "closingFrame": {
     "line": "This is Karthik."
   },
